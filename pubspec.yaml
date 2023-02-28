@@ -1,0 +1,20 @@
+name: easy_context
+description:  This package provides extenstion over BuildContext class and provide easy access for the most used properties and functions to keep your code clean and simple
+version: 1.0.0
+homepage:
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
