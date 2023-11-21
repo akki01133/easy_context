@@ -1,6 +1,6 @@
 name: easy_context
 description:  This package provides extenstion over BuildContext class and provide easy access for the most used properties and functions to keep your code clean and simple
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/akki01133/easy_context
 
 environment:
