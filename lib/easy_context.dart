@@ -19,6 +19,9 @@ extension NavigationHelper on BuildContext{
   void popUntil(bool Function(Route dynamic) predicate ) => Navigator.of(this).popUntil(predicate);
 }
 
-
+extension WidgetExtension on int {
+  SizedBox get height => SizedBox(height: toDouble());
+  SizedBox get width => SizedBox(width: toDouble());
+}
 
 
